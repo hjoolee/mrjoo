@@ -1,0 +1,131 @@
+* {
+  font-family: Boogaloo, sans-serif;
+
+}
+
+body {
+  font-family: Boogaloo, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.333em;
+  display: inline-block;
+  float: none;
+  margin: 0;
+  padding: 0 140px;
+  text-align: center;
+  width: auto;
+
+}
+
+nav a:hover {
+  background-color: none;
+}
+
+header {
+  background: white;
+  
+}
+
+#logo {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.card {
+   display: block;
+   width: 600px;
+   margin: 80px auto;
+}
+
+h2 {
+   margin-bottom: 20px;
+}
+
+div#photo-viewer {
+   height: 300px;
+   width: 300px;
+   overflow: hidden;
+   display: inline-block;
+   position: relative;
+}
+
+div.info {
+   width: 220px;
+   height: 300px;
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 20px;
+}
+
+.thumb {
+   margin-right: 8px;
+}
+
+.thumb img {
+   height: 70px;
+}
+
+.actions button {
+   float: right;
+   margin-right: 4px;
+   padding: 9px 15px;
+   margin-top: 43px;
+}
+
+
+.card {
+   box-shadow: .5px .5px 5px grey;
+   background-color: white;
+   padding: 25px;
+}
+
+h2 {
+   font-size: 44px;
+   text-align: center;
+}
+#photo-viewer.is-loading::after {
+   content: url('https://retchhh.files.wordpress.com/2015/03/loading1.gif?w=300&h=300');
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+#photo-viewer img {
+   position: absolute;
+   max-width: 100%;
+   max-height: 100%;
+   top: 50%;
+   left: 50%;
+}
+
+.info {
+   padding: 12px 10px 12px 12px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.actions {
+   padding-top: 10px;
+}
+
+a.thumb {
+   text-decoration: none;
+}
+a.thumb.active {
+   opacity: 0.3;
+}
+#xxx {
+  float: right;
+}

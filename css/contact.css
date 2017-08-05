@@ -1,0 +1,46 @@
+body {
+  font-family: Boogaloo, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.333em;
+  display: inline-block;
+  float: none;
+  margin: 0;
+  padding: 0 140px;
+  text-align: center;
+  width: auto;
+
+}
+
+nav a:hover {
+  background-color: none;
+}
+
+/*header {
+  background: url(../images/lookbook/main.jpg);
+  height: 900px;
+  background-size: cover;
+}*/
+
+#logo {
+  text-align: center;
+  padding-top: 25px;
+}
+
+section {
+  font-size: 1.5em;
+  width: 13%;
+  padding-top: 13%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
